@@ -14,7 +14,7 @@ This project is a Streamlit-based web application with a FastAPI backend for gen
 
 1. Clone this repository:
    ```
-   git clone https://github.com/jitender-insights/text_to_image_app.git
+   git clone [https://github.com/jitender-insights/text_to_image_app.git](https://github.com/jitender-insights/Stable-Diffusion-Project.git)
    cd text_to_image_app
    ```
 
