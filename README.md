@@ -36,7 +36,7 @@ This project is a Streamlit-based web application with a FastAPI backend for gen
 Run the application:
 
 ```
-python app.py
+streamlit run app.py
 ```
 
 Open your web browser and go to `http://localhost:8501` to use the app.
