@@ -36,10 +36,22 @@ This project is a Streamlit-based web application with a FastAPI backend for gen
 Run the application:
 
 ```
-streamlit run app.py
+Streamlight run app.py
 ```
 
 Open your web browser and go to `http://localhost:8501` to use the app.
+
+If you want to run main.py file please follow below steps:
+Run the FastAPI server
+
+
+```
+uvicorn main:app --reload
+```
+
+Open your web browser and go to `http://127.0.0.1:8000/docs` to use the app.
+
+
 
 ## Deployment
 
@@ -48,7 +60,7 @@ This application is designed to be easily deployed on platforms like Render. Fol
 1. Create a new Web Service on Render.
 2. Connect your GitHub repository.
 3. Set the build command to `pip install -r requirements.txt`.
-4. Set the start command to `python app.py`.
+4. Set the start command to `streamlit run app.py`.
 5. Add your Hugging Face token as an environment variable named `HUGGINGFACE_TOKEN`.
 
 ## Contributing
